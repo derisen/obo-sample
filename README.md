@@ -80,7 +80,7 @@ As a first step you'll need to:
    - In the **Delegated permissions** section, ensure that the right permissions are checked: **access_as_user**. Use the search box if necessary.
    - Select the **Add permissions** button
 
-### Step 3:  Configure the sample to use your Azure AD tenant
+### Step 2:  Configure the sample to use your Azure AD tenant
 
 #### Choose which users account to sign in
 
@@ -106,7 +106,7 @@ Note: if you used the setup scripts, the changes below will have been applied fo
 1. and replace the value with the scope of the ProfileClientAndService application copied from the app registration in the **Expose an API** tab, i.e `https://contoso.onmicrosoft.com/TodoListClient-and-Service/access_as_user`.
 1. [Optional] If you changed the default URL for your service application, find the app key `resourceUri` and replace the value with the base address of the ProfileAPI project.
 
-### Step 4: Run the sample
+### Step 3: Run the sample
 
 Clean the solution, rebuild the solution, and run it.  You might want to go into the solution properties and set both projects as startup projects, with the service project starting first.
 
